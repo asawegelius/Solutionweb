@@ -1,0 +1,6 @@
+﻿{
+  "ConnectionStrings": {
+    "FormInfoContext" :  "server=(localdb)\\mssqllocaldb;Database=SolutionwebTest;Trusted_Connection=True;"
+  }
+
+}

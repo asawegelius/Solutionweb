@@ -1,0 +1,11 @@
+C:\Users\asawe\source\repos\SolutionwebTest\SolutionwebTest\bin\Debug\netcoreapp2.0\SolutionwebTest.deps.json
+C:\Users\asawe\source\repos\SolutionwebTest\SolutionwebTest\bin\Debug\netcoreapp2.0\SolutionwebTest.runtimeconfig.json
+C:\Users\asawe\source\repos\SolutionwebTest\SolutionwebTest\bin\Debug\netcoreapp2.0\SolutionwebTest.runtimeconfig.dev.json
+C:\Users\asawe\source\repos\SolutionwebTest\SolutionwebTest\bin\Debug\netcoreapp2.0\SolutionwebTest.dll
+C:\Users\asawe\source\repos\SolutionwebTest\SolutionwebTest\bin\Debug\netcoreapp2.0\SolutionwebTest.pdb
+C:\Users\asawe\source\repos\SolutionwebTest\SolutionwebTest\obj\Debug\netcoreapp2.0\SolutionwebTest.csprojResolveAssemblyReference.cache
+C:\Users\asawe\source\repos\SolutionwebTest\SolutionwebTest\obj\Debug\netcoreapp2.0\SolutionwebTest.csproj.CoreCompileInputs.cache
+C:\Users\asawe\source\repos\SolutionwebTest\SolutionwebTest\obj\Debug\netcoreapp2.0\SolutionwebTest.AssemblyInfoInputs.cache
+C:\Users\asawe\source\repos\SolutionwebTest\SolutionwebTest\obj\Debug\netcoreapp2.0\SolutionwebTest.AssemblyInfo.cs
+C:\Users\asawe\source\repos\SolutionwebTest\SolutionwebTest\obj\Debug\netcoreapp2.0\SolutionwebTest.dll
+C:\Users\asawe\source\repos\SolutionwebTest\SolutionwebTest\obj\Debug\netcoreapp2.0\SolutionwebTest.pdb

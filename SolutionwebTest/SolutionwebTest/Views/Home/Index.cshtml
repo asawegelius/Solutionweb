@@ -1,0 +1,39 @@
+﻿@model SolutionwebTest.Models.FormInfo
+@{
+	Layout = "_Layout";
+	}
+
+	<h1> @ViewData["Message"] </h1>
+<fieldset>
+	@using (Html.BeginForm())
+	{
+        
+		<p>
+			@Html.LabelFor(x => x.Number) &nbsp; @Html.ValidationMessageFor(x => x.Number)<br />
+			@Html.EditorFor(x => x.Number)
+		</p>
+		<p>
+			@Html.LabelFor(x => x.DecimalNumber) &nbsp;@Html.ValidationMessageFor(x => x.DecimalNumber)<br />
+			@Html.EditorFor(x => x.DecimalNumber)
+		</p>
+		<p>
+			@Html.LabelFor(x => x.Date) &nbsp; @Html.ValidationMessageFor(x => x.Date)<br />
+			@Html.EditorFor(x => x.Date)
+		</p>
+		<p>
+			@Html.LabelFor(x => x.DateTime) &nbsp;@Html.ValidationMessageFor(x => x.DateTime)<br />
+			@Html.EditorFor(x => x.DateTime)
+		</p>
+		<p>
+			@Html.LabelFor(x => x.TextMax50) &nbsp; @Html.ValidationMessageFor(x => x.TextMax50)<br />
+			@Html.EditorFor(x => x.TextMax50)
+		</p>
+		<p>
+			@Html.LabelFor(x => x.Text) &nbsp; @Html.ValidationMessageFor(x => x.Text)<br />
+			@Html.EditorFor(x => x.Text)
+		</p>
+		<p>
+			<button type="submit">Submit</button>
+		</p>
+	}
+</fieldset>

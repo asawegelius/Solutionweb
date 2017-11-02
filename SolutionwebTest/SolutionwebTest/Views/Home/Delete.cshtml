@@ -1,0 +1,24 @@
+﻿@model IEnumerable<SolutionwebTest.Models.FormInfo>
+@{
+	Layout = "_Layout";
+	}
+
+	<h1> @ViewData["Message"] </h1>
+
+<form  method="post">
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Number</th>
+            <th>Decimal Number</th>
+            <th>Date</th>
+            <th>Date Time</th>
+            <th>Text max 50</th>
+            <th>Text</th>
+            <th>Action</th>
+        </tr>
+        @foreach (var forminfo in Model)
+        {
+            @Html.Partial("_Delete", forminfo)
+        }
+    </table>
+</form>

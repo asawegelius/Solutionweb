@@ -1,0 +1,15 @@
+﻿@inject SolutionwebTest.Models.DateFormatterService Format
+@model SolutionwebTest.Models.FormInfo
+<tr>
+    <td>@Model.Number</td>
+    <td>@Model.DecimalNumber</td>
+    <td>@Format.DateString(Model.Date)</td>
+    <td>@Model.DateTime</td>
+    <td>@Model.TextMax50</td>
+    <td>@Model.Text</td>
+    <td>
+        <input type="submit"
+               formaction="/home/delete/@Model.Id"
+               value="Delete" />
+    </td>
+</tr>
